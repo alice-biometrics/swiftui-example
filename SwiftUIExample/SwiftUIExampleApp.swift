@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AliceOnboarding
 
 @main
 struct SwiftUIExampleApp: App {
