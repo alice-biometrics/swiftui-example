@@ -60,6 +60,7 @@ struct MyView: UIViewControllerRepresentable {
                 let onboarding = Onboarding(uiViewController, config: config)
                 
                 onboarding.run { result in
+                    uiViewController.dismiss(animated: false)
                     
                 }
             case .failure(let error):
